@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+// Source : https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 // Date : 2024-01-03
 
 /*
@@ -32,9 +32,11 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution 
+{
 public:
-    vector<int> twoSum(vector<int>& numbers, int target) {
+    vector<int> twoSum(vector<int>& numbers, int target) 
+    {
         int firstIndex = 0;
         int lastIndex = numbers.size() - 1;
 
