@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/score-of-a-string/
+// Source : https://leetcode.com/problems/score-of-a-string
 // Date : 2024-01-04
 
 /*
